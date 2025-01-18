@@ -1,0 +1,28 @@
+Aether Portal Add-on for Minecraft Bedrock Edition
+
+1. **Folder Structure**
+
+Your project folder structure should look like this:
+
+AetherPortalAddon/
+    ├── behavior_packs/
+    │   └── aether_portal_behavior/
+    │       ├── manifest.json
+    │       └── aether_portal.js
+    └── resource_packs/
+        └── aether_portal_resource/
+            └── manifest.json
+
+---
+
+2. **Behavior Pack**
+
+### a. `manifest.json` for Behavior Pack (Location: `behavior_packs/aether_portal_behavior/manifest.json`)
+
+```json
+{
+  "format_version": 2,
+  "header": {
+    "description": "Aether Portal for Minecraft Bedrock Edition",
+    "name": "Aether Portal Behavior Pack",
+    "uuid
